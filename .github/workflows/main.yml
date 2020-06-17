@@ -30,7 +30,7 @@ jobs:
 
     # installing yarn
     - name: installing yarn
-      uses: borales/action-yarn@v2
+      uses: borales/actions-yarn@v2
       with:
         cmd: install
     - name: creating build
