@@ -38,4 +38,4 @@ jobs:
     - name: installing surge
       run: npm install --global surge
     - name: deploying surge
-      run: surge ./build bootcamp2020_hamz4_c2e --token ${{secrets.surge_token}}
+      run: surge ./build bootcamp2020_hamz4_c2e.surge.sh --token ${{secrets.surge_token}}
